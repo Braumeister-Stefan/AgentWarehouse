@@ -24,7 +24,7 @@ For each finding:
 | # | Location | Challenge | Proposed Resolution | Severity |
 |---|----------|-----------|---------------------|----------|
 
-Severity levels: **Critical** (breaks execution), **Major** (incorrect behaviour), **Minor** (clarity or style).
+Severity levels: **Major** (incorrect behaviour), **Minor** (clarity or style).
 
 ## Guidelines
 - Do not skip items because they seem unlikely; note them with appropriate severity.
