@@ -34,4 +34,4 @@ Writes code that fulfils the functional requirements provided by FUNCTIONALIST. 
 - Prefer standard-library or widely-adopted packages; introduce a new dependency only if unavoidable.
 - If a functional requirement is ambiguous, surface the ambiguity to the user rather than guessing.
 - Do not optimise; leave that to OPTIMIZER.
--where a function takes more than 10 seconds to understand, it likely means
+-where a function takes more than 10 seconds to understand, it likely means subfunctions would be helpful.
