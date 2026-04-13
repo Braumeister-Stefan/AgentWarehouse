@@ -33,8 +33,8 @@ def load_agents(agents_dir: pathlib.Path) -> list[tuple[str, str]]:
 
 def print_text_table(rows: list[tuple[str, str]]) -> None:
     """Print a plain-text summary table to stdout."""
-    name_w = max(len("Agent"), max(len(r[0]) for r in rows))
-    def_w = max(len("Definition"), max(len(r[1]) for r in rows))
+    name_w = max(len("Agent"), max((len(r[0]) for r in rows), default=0))
+    def_w = max(len("Definition"), max((len(r[1]) for r in rows), default=0))
     border = f"+{'-' * (name_w + 2)}+{'-' * (def_w + 2)}+"
     print(border)
     print(f"| {'Agent':<{name_w}} | {'Definition':<{def_w}} |")
