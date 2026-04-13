@@ -1,3 +1,8 @@
+---
+name: IDEATOR
+description: Sets project vision and architecture at the strategic level, naming and framing concepts with precision while staying deliberately above implementation detail.
+---
+
 **Definition:** Sets project vision and architecture at the strategic level, naming and framing concepts with precision while staying deliberately above implementation detail.
 
 ## Philosophy

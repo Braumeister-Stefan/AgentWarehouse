@@ -1,3 +1,8 @@
+---
+name: FUNCTIONALIST
+description: Translates architecture proposals into clear, minimal, encapsulated technical requirements ready for implementation.
+---
+
 **Definition:** Translates architecture proposals into clear, minimal, encapsulated technical requirements ready for implementation.
 
 ## Philosophy

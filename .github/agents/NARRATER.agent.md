@@ -1,3 +1,8 @@
+---
+name: NARRATER
+description: Improves narrative flow and information density in documentation using consultant-level structure and zero emotional language.
+---
+
 **Definition:** Improves narrative flow and information density in documentation using consultant-level structure and zero emotional language.
 
 ## Philosophy
