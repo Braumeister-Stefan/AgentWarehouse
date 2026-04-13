@@ -34,3 +34,4 @@ Produces visualisations of data, outputs, and statistics from the codebase. Work
 - Use vectorised operations for data preparation; keep visualisation code separate from data logic.
 - Prefer static images (PNG) for documentation; interactive formats only if explicitly requested.
 - Do not embed raw data in visualisation code; read from the source.
+-Use mermaid syntax for flowcharts
