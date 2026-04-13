@@ -1,2 +1,4 @@
 # AgentWarehouse
-This repository is a storage space for agents I defined and use in other projects.
+
+A minimal repository of reusable GitHub Copilot custom-agent profile files.
+Agent definitions live under `.github/agents/` as `*.agent.md` files.
