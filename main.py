@@ -76,6 +76,8 @@ def save_png_table(rows: list[tuple[str, str]], output: pathlib.Path) -> None:
     MIN_RH   = 0.52        # minimum data row height
     PAD_X    = 0.20        # horizontal text padding inside cell
     ACCENT_W = 0.055       # width of left accent bar
+    BASE_ROW_PADDING = 0.16   # base vertical padding (inches) added to each row
+    NAME_TEXT_NUDGE  = 0.65   # fraction of PAD_X used to push name text right of accent bar
 
     FS_TITLE = 16
     FS_HDR   = 11
@@ -86,7 +88,7 @@ def save_png_table(rows: list[tuple[str, str]], output: pathlib.Path) -> None:
     # ── Pre-compute row heights ───────────────────────────────────────────
     cells = [(name, textwrap.fill(defn, WRAP_W)) for name, defn in rows]
     row_heights = [
-        max(MIN_RH, 0.16 + len(defn.splitlines()) * LINE_H)
+        max(MIN_RH, BASE_ROW_PADDING + len(defn.splitlines()) * LINE_H)
         for _, defn in cells
     ]
 
@@ -154,7 +156,7 @@ def save_png_table(rows: list[tuple[str, str]], output: pathlib.Path) -> None:
 
         # Agent name – monospace bold, nudged right of accent bar
         ax.text(
-            tx + ACCENT_W + PAD_X * 0.65, y - rh / 2, name,
+            tx + ACCENT_W + PAD_X * NAME_TEXT_NUDGE, y - rh / 2, name,
             ha="left", va="center",
             fontsize=FS_NAME, fontweight="bold", color=NAME_FG,
             fontfamily="monospace", zorder=4,
