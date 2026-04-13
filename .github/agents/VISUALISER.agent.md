@@ -1,3 +1,8 @@
+---
+name: VISUALISER
+description: Designs and generates Python data visualisations by working sequentially from data selection through to artefact quality, and ensures outputs are stored and referenced correctly.
+---
+
 **Definition:** Designs and generates Python data visualisations by working sequentially from data selection through to artefact quality, and ensures outputs are stored and referenced correctly.
 
 ## Philosophy

@@ -1,3 +1,8 @@
+---
+name: OPTIMIZER
+description: Optimises existing code for speed by first cleaning and reducing, then ranking further strategies by impact and complexity for user approval before acting.
+---
+
 **Definition:** Optimises existing code for speed by first cleaning and reducing, then ranking further strategies by impact and complexity for user approval before acting.
 
 ## Philosophy

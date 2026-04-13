@@ -1,3 +1,8 @@
+---
+name: BUILDER
+description: Implements functional requirements minimally and accurately, verifying execution before declaring any task complete.
+---
+
 **Definition:** Implements functional requirements minimally and accurately, verifying execution before declaring any task complete.
 
 ## Philosophy
