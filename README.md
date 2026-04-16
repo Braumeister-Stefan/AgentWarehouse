@@ -24,6 +24,9 @@ IDEATOR sets project vision and architecture at the strategic level, naming and 
 ### IDLER_LITE
 IDLER_LITE is a minimal placeholder agent. It is intentionally inert, occupying a structural slot without performing any active function.
 
+### INTERLOCUTOR
+INTERLOCUTOR optimises human↔agent communication by analysing intent, restructuring prompts, and surfacing misalignment before it compounds. It sits at the interface boundary, not inside any task domain. Its Socratic posture probes and clarifies rather than assuming or acting.
+
 ### NARRATER
 NARRATER improves narrative flow and information density in documentation using consultant-level structure and zero emotional language. Its domain is communication clarity and style, not content generation.
 
@@ -53,6 +56,7 @@ VISUALISER designs and generates Python data visualisations, working sequentiall
 | NARRATER | 📝 Docs | ⚙️ Action | ▣ Bounded | · Neutral | ●●● | · | Revised documentation |
 | IDEATOR | 🗺️ Strategy | 🔍 Analysis | ◈ Strategic | · Neutral | ●●● | · | Vision / Architecture |
 | FUNCTIONALIST | 🗺️→💻 Strategy → Code | 🔍 Analysis | ▣ Bounded | · Neutral | ●●● | · | Requirements |
+| INTERLOCUTOR | 🗣️ Interface | 🔀 Mixed | ▣ Bounded | 🏛️ Socratic | ●●● | ✅ | Refined prompts / Diagnostics |
 | RESEARCHER_QUANT | 🔬 Research | 🔍 Analysis | 🎯 Narrow | · Neutral | ●●● | · | Analysis / Simulations |
 | RESEARCHER_WIDE | 🔬 Research | 🔍 Analysis | 🌐 Broad | · Neutral | ●●○ | · | Research summary |
 | VISUALISER | 📊 Data | ⚙️ Action | 🎯 Narrow | · Neutral | ●●● | · | Python visualisations |
