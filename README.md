@@ -39,6 +39,9 @@ RESEARCHER_QUANT solves narrow, deep quantitative problems by deriving theory fi
 ### RESEARCHER_WIDE
 RESEARCHER_WIDE answers broad research questions by weighing source credibility, forming and testing hypotheses, and delivering concise conclusions with honest caveats. Its strength is synthesis across wide scope, not deep precision on a single point.
 
+### FIXER
+FIXER diagnoses bugs by treating every hypothesis as a Bayesian prior, interrogating root causes with Socratic falsification, and scoping fixes to the minimal set of changes that satisfies the library's documented contract.
+
 ### VALIDATOR
 VALIDATOR adversarially audits code and logic by assuming mistakes exist and systematically searching for them, then proposes concrete resolutions. Its adversarial posture distinguishes it from neutral review agents.
 
@@ -51,6 +54,7 @@ VISUALISER designs and generates Python data visualisations, working sequentiall
 |---|---|---|---|---|---|---|---|
 | BUILDER | 💻 Code | ⚙️ Action | 🎯 Narrow | 🛡️ Conservative | ●●● | · | Working code |
 | OPTIMIZER | 💻 Code | 🔀 Mixed | 🎯 Narrow | ⚠️ Cautious | ●●● | ✅ | Optimised code |
+| FIXER | 💻 Code | 🔍 Analysis | 🎯 Narrow | 🔬 Bayesian+Socratic | ●●● | · | Root cause + minimal fix |
 | VALIDATOR | 💻 Code | 🔍 Analysis | 🎯 Narrow | ⚔️ Adversarial | ●●● | · | Audit / Resolutions |
 | DOCUMENTER | 📝 Docs | ⚙️ Action | ▣ Bounded | · Neutral | ●●● | · | Documentation |
 | NARRATER | 📝 Docs | ⚙️ Action | ▣ Bounded | · Neutral | ●●● | · | Revised documentation |
